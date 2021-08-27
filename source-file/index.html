@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .carousel {
+        background: #1a2229;
+        margin-top: 0;
+        padding: 0;
+      }
+      .carousel-item {
+        text-align: center;    
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+      }
+	  .carousel-item img
+	  {
+		  margin: 0;
+		  padding: 0;
+		  background-size: cover;
+	  }
+      .about_us-section {
+        padding: 0 0;
+        margin: 0 0;
+      }
+      .fix {
+        margin: 0 0;
+        padding: 0 0;
+      }
+      .mb-3,
+      .my-3 {
+        margin-bottom: 1px !important;
+      }
+      .mt-3,
+      .my-3 {
+        margin-top: 1px !important;
+      }
+      element.style {
+    padding: 0;
+    margin: 0;
+}
+element.style {
+    padding: 0px;
+}
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-auto">
+            <a href="#" class="logo">BURGER & PIZZA</a>
+          </div>
+          <div class="col-auto">
+            <div class="header-right-list">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="nav_icon" id="nav_icon" href="#!"
+                    ><i class="fa fa-bars" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main_menu" id="main_menu">
+      <span class="menu_bg"></span>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Top Pizzas</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div
+      id="home"
+      class="banner d-flex align-items-center image-fluid"
+      style="
+        background-image: url('/images/shourav-sheikh-xLfqx4Psf94-unsplash.jpg');
+      "
+    >
+      <div class="container">
+        <h1>All hard work and soft work only for food</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod
+        </p>
+      </div>
+    </div>
+
+    <!--  -->
+    <section id="about" class="about_us-section">
+      <div class="container-t fix image-fluid">
+        <div class="container-lg my-3">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/pizza/PngItem_1066280.png" alt="First Slide" />
+              </div>
+              <div class="carousel-item">
+                <img src="/images/pizza/PngItem_1103074.png" alt="Second Slide" />
+              </div>
+              <div class="carousel-item">
+                <img src="/images/pizza/PngItem_2190657.png" alt="Third Slide" />
+              </div>
+             <div class="carousel-item">
+                <img src="/images/pizza/PngItem_1643357.png" alt="fourth slide" />
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control-prev"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+    ">
+      <div class="container text-center">
+        <h2><span>Our Services</span></h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="service-box">
+              <figure>
+                <img src="/images/pizza/—Pngtree—home delivery_6388202.png" style="padding: 30px;" alt="" />
+              </figure>
+              <h3>FREE HOME DELIVERY</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="service-box">
+              <figure>
+                <img src="/images/pizza/—Pngtree—hotel catering catering service industry_3827363.png" style="padding: 30x;" alt="Upload Picture" />
+              </figure>
+              <h3>CATERING</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="service-box">
+              <figure>
+                <img src="/images/pizza/pngfind.com-birthday-cake-logo-png-5052995.png" style="padding: 28px; margin:4px;" alt="Upload Picture" />
+              </figure>
+              <h3>BIRTHDAY PARTY</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="service-box">
+              <figure>
+                <img src="/images/pizza/pngkey.com-pizza-logo-png-4229220.png" style="padding: 30x;" alt="Upload Picture" />
+              </figure>
+              <h3 style="margin-top: 50px;">CUSTOMISED PIZZA</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="service-box">
+              <figure>
+                <img src="/images/pizza/—Pngtree—24-hour clock delivery service_5518192.png" style="padding: 30x;" alt="Upload Picture" />
+              </figure>
+              <h3>ONLINE ORDER 24/7HOUR*</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <div class="service-box">
+              <figure>
+                <img src="/images/pizza/—Pngtree—simple hand-painted pizza logo_5544834.png" style="padding: 30x;" alt="Upload Picture" />
+              </figure>
+              <h3>VARIETY OF PIZZA</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact_us-section">
+      <div class="container">
+        <h2><span>Contact Us</span></h2>
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" name="" placeholder="First Name" />
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="" placeholder="Last Name" />
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="" placeholder="Email" />
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="" placeholder="Phone" />
+            </div>
+            <div class="col-md-12">
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="col-md-12 text-center">
+              <input type="submit" name="" value="Submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="header-right-list footer-list">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <h3 style="color:white;">COPYRIGHT@2021</h3>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      nav_icon = document.getElementById("nav_icon");
+      main_menu = document.getElementById("main_menu");
+      menuList = document.querySelectorAll(".main_menu ul li a");
+      current = 1;
+      nav_icon.addEventListener("click", function () {
+        if (current == 1) {
+          main_menu.classList.add("active");
+          current = 2;
+        } else if (current == 2) {
+          main_menu.classList.remove("active");
+          current = 1;
+        }
+      });
+      menuList.forEach(function (navElement) {
+        navElement.addEventListener("click", function () {
+          if (current == 2) {
+            main_menu.classList.remove("active");
+            current = 1;
+          }
+        });
+      });
+    </script>
+
+    <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.js"></script>
+    
+  </body>
+</html>
